@@ -32,7 +32,7 @@ select * from salespersons
 insert into invoices values(0,852399038, '20180822',1,3);
 insert into invoices values(1,731166526, 20181231,0,5);
 insert into invoices values(2,271135104, 20190122,2,7);
-
+ 
 select * from invoices;
 
 
