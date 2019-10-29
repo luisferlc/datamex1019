@@ -148,21 +148,21 @@ def el_juego():
 
 el_juego()
 
-def main():
-    
-    print("Jugador 'a', empieza")
-    a = el_juego()
-    print("Jugador 'b', dale que es mole de olla")
-    b = el_juego()
-    
-    if a>b:
-        return "El jugador 'a' es el ganador"
-    elif b>a:
-        return "El jugador 'b' es el ganador"
-    elif a == 'win':
-        return "El jugador 'a' ha ganado"
-    elif a == 'lost':
-        return "El jugador 'b' ha ganado"
-
-main()
+#def main():
+#    
+#    print("Jugador 'a', empieza")
+#    a = el_juego()
+#    print("Jugador 'b', dale que es mole de olla")
+#    b = el_juego()
+#    
+#    if a>b:
+#        return "El jugador 'a' es el ganador"
+#    elif b>a:
+#        return "El jugador 'b' es el ganador"
+#    elif a == 'win':
+#        return "El jugador 'a' ha ganado"
+#    elif a == 'lost':
+#        return "El jugador 'b' ha ganado"
+#
+#main()
 
