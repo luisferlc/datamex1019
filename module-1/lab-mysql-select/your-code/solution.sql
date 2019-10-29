@@ -63,7 +63,7 @@ select * from titleauthor;
 select a.au_id as Author_ID, au.au_lname as Last_Name, au.au_fname as First_Name, sum(s.qty) as Total_Titles_Sold
 from authors au
 right join titleauthor a
-on a.au_id=au.au_id
+on a.au_id=au.	au_id
 join titles t
 on t.title_id=a.title_id
 join sales s
@@ -84,5 +84,17 @@ join sales s
 on s.title_id=t.title_id
 group by Author_ID
 order by Total_Titles_Sold desc
+;
+
+############### BONUS
+select a.au_id as Author_ID, au.au_lname as Last_Name, au.au_fname as First_Name, sum(a.royaltyper) as Profit
+from authors au
+right join titleauthor a
+on a.au_id=au.au_id
+join titles t
+on t.title_id=a.title_id
+group by Author_ID
+order by Profit desc
+limit 3
 ;
 
