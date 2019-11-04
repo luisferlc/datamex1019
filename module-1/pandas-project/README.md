@@ -45,3 +45,21 @@ The following deliverables should be pushed to your Github repo for this chapter
 * [StackOverflow Pandas Questions](https://stackoverflow.com/questions/tagged/pandas)
 * [Awesome Public Data Sets](https://github.com/awesomedata/awesome-public-datasets)
 * [Kaggle Data Sets](https://www.kaggle.com/datasets)
+
+
+#############################################################################################################################
+#############################################################################################################################
+###########################                           Proceso de limpieza                         ###########################
+#############################################################################################################################
+#############################################################################################################################
+
+a) Columna Case Number y Date:
+1.- Primero me dedique a limpiar la columna Case Number. Empece por utilizar el método str.replace para quitar caractéres al final de los valores
+de Case Number.
+2.- Después, discrimine más de 17,000 mil registros vacíos seleccionando solo aquellas filas que tienen valores dentro del data set.
+3.- Llene los 'na' como 'Unknown' y los valores que empezaban con 'ND' les puse NaN, ya que esos valores 'ND' significan que no son útiles,
+o no contienen información.
+4.- Inserté los valores limpios de Case Number en la columna Date con formato datetime64 ya que en realidad, Case Number son las fechas 
+en formato año, mes y día.
+
+

@@ -26,6 +26,6 @@ def exe(link):
     return df
 
 dff= exe("./Documents/Python Projects/datamex1019/module-1/pandas-project/global-shark-attacks/attacks.csv")
-dff.to_csv('sharks_clean.csv')
+dff.to_csv('sharks_clean_lflc.csv')
 
 print (exe("./Documents/Python Projects/datamex1019/module-1/pandas-project/global-shark-attacks/attacks.csv"))
