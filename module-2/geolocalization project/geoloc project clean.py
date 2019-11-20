@@ -147,7 +147,7 @@ mapa = folium.Map(location=[37.775196, -122.419204], zoom_start=15)
 for point in range(0, len(locationlist)):
     folium.Marker(locationlist[point], popup=df_nearest_origin['name'][point]).add_to(mapa)
 
-mapa.save("mymap.html")
+mapa.save("sanfranciscomap.html")
 
 ### Conclusión:
 
