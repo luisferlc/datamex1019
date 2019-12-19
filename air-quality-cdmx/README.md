@@ -1,9 +1,7 @@
-![IronHack] (https://github.com/luisferlc/datamex1019/edit/final-project/air-quality-cdmx/ironhack.png)
+![IronHack](https://github.com/luisferlc/datamex1019/edit/final-project/air-quality-cdmx/ironhack.png)
 # Predicción de IMECA para PM10 y PM2.5
 
 **Luis Fernando López Corrales**
-
-**Data Analytics Bootcamp**
 
 ## Resúmen
 Crear un modelo de predicción para las mediciones de PM10 y PM2.5 máximas diarias. Este modelo de predicción se va comparar con los valores máximos diarios de cada partícula.
