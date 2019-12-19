@@ -1,6 +1,6 @@
-![ironhacklogo](https://github.com/luisferlc/datamex1019/edit/final-project/air-quality-cdmx/images/ironhack.png)
+![ironhacklogo](https://github.com/luisferlc/datamex1019/final-project/air-quality-cdmx/imágenes/ironhack.png)
 
-<img src="https://github.com/luisferlc/datamex1019/edit/final-project/air-quality-cdmx/images/ironhack.png">
+<img src="https://github.com/luisferlc/datamex1019/final-project/air-quality-cdmx/imágenes/ironhack.png">
 
 # Predicción de IMECA para PM10 y PM2.5
 
